@@ -23,4 +23,11 @@ class Paginas extends Controller{
      $this->view('paginas/home', $dados);
     
    }//fim da funcao home
+
+      public function contato(){
+    $dados = [
+        'titulo' => 'Cadastra Objeto',
+        'descricao' => ''
+    ];
+     $this->view('paginas/home', $dados);
 }//fim da classe Páginas
